@@ -988,6 +988,7 @@ a.button, a.button:link {
 	font-family: 'Montserrat';
 	color: #a6a6a6;
 	text-transform: uppercase;
+	text-align: left;
 }
 .blog-post h2 {
 	font-size: 24px;
@@ -1022,4 +1023,11 @@ div.case-study-images {
 div.case-study-images img{
 	margin-bottom: 50px;
 	border: 1px solid #dddddd;
+}
+
+/* Featured Work */
+h4 {
+	font-size: 20px;
+	line-height: 1.2;
+	text-align: center;
 }

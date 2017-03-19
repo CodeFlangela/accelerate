@@ -36,9 +36,15 @@ get_header(); ?>
   			?>
 
   				<figure>
-  					<?php if($image_1) { ?>
-						<img src="<?php echo $image_1; ?>" />			
-					<?php } ?>
+  					<?php echo wp_get_attachment_image($image_1, $size); ?>
+  				</figure>
+
+  				<figure>
+  					<?php echo wp_get_attachment_image($image_2, $size); ?>
+  				</figure>
+ 				
+  				<figure>
+  					<?php echo wp_get_attachment_image($image_3, $size); ?>
   				</figure>
   				
 				<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
